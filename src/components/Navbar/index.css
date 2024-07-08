@@ -10,4 +10,7 @@
   margin: 0;
   font-size: 40px;
   color: rgb(243, 243, 97);
+  font-family: "Roboto";
+  border: 1px solid yellow;
+  padding: 0 4px;
 }
