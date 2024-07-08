@@ -1,0 +1,52 @@
+.edit {
+  left: 10px;
+  color: green;
+}
+.edit:hover {
+  color: #fff;
+  background-color: green;
+}
+.popup-content {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+}
+@media screen and (min-width: 768px) {
+  .popup-content {
+    width: 70vw;
+    height: 82vh;
+  }
+}
+.modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: #f7bee3;
+}
+@media screen and (min-width: 768px) {
+  .modal-container {
+    width: 70%;
+  }
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-top: 24px;
+  margin-right: 24px;
+  outline: none;
+  cursor: pointer;
+}
+
+.edit-form-bg-container {
+  max-width: 90%;
+}
+.edit-post-form {
+  display: flex;
+  flex-direction: column;
+}
