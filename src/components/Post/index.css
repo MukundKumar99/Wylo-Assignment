@@ -1,0 +1,41 @@
+.posts-container {
+  padding: 0 8%;
+}
+.all-post-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(100, 20, 20);
+  font-family: "Roboto";
+  margin-bottom: 0;
+  text-align: center;
+}
+.post-items-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.create-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-btn {
+  height: 40px;
+  width: 140px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: rgb(38, 204, 38);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+a {
+  text-decoration: none;
+}
