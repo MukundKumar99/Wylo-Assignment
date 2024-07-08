@@ -1,0 +1,48 @@
+.create-post-bg-container {
+  display: flex;
+  justify-content: center;
+}
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 88%;
+  max-width: 500px;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+}
+.title-input-field {
+  height: 32px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+.description-input-field {
+  min-height: 60px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-wrap: wrap;
+  outline: none;
+}
+.submit-btn {
+  height: 40px;
+  background-color: rgb(71, 71, 248);
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 140px;
+  align-self: center;
+}
